@@ -1,7 +1,8 @@
 # Parking-Assistance-Using-Homography
 Project: ENPM673: Perception for Autonomous Robots
 
-![Picture 1](https://github.com/user-attachments/assets/9e287ccc-4793-49b2-b272-c7349359b008)
+![Result GIF](https://github.com/user-attachments/assets/e8c68b72-d698-4019-ac52-06ad52efe520)
+
 
 * Use concept of homography to create a 360 deg top-view of a vehicle using a number of cameras mounted on the vehicle.
 * Show a video with the surrounding of the vehicle while it is reversing to park.
@@ -49,3 +50,11 @@ Project: ENPM673: Perception for Autonomous Robots
 
 * Video Creation
 
+## Observation
+* Overall, the project was successful. As seen in the video, the stitching between the right video and the top and bottom frames was complete throughout. The features on theground can be seen very smoothly transitioning between the three videos.
+* As for the connections on the left frame, they started out very well and overtime got delayed. Towards the end of the video the features almost completely disappeared before reappearing in the following frames.
+* The problem was caused with the different frame rates of the videos and weak feature matching in the image stitching process.
+* The output video (link below) showed great success with the project’s methodology, approach, and execution.
+
+## Links
+https://drive.google.com/file/d/1XUh6ANkl5zoPmNF3MBC4Evzh7QakQP4c/view?usp=sharing
